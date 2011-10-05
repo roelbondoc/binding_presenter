@@ -2,7 +2,7 @@ var renders = {
   'tab_view' : function(target, data, presenter) {
     target.append($('<h3>Tabs:</h3>'));
     $.each(data[presenter.binds_to], function(i,tab_data) {
-      var a = $('<a href="#">'+getData(presenter.binding.text,tab_data)+' #'+getData(presenter.binding.selector,tab_data)+'</a>');
+      var a = $('<a href="#">'+getData(presenter.binding.text,tab_data)+'</a>');
       a.bind('click', function(elm) {
         $('.page').hide();
         $('#'+getData(presenter.binding.selector,tab_data)).show();
@@ -15,7 +15,6 @@ var renders = {
     target.append($('<h3>Events:</h3>'));
     $.each(data.lists[presenter.binds_to], function(i,list_data) {
       var list_container = $('<div id='+getData(presenter.binding.id,list_data)+' class="page" style="border:1px solid black;display:none;"></div>');
-      list_container.append($('<p>Timestamp:'+getData(presenter.binding.id,list_data)+'</p>'));
       $.each(list_data.data, function(i, event_data) {
         $.each(event_data.teams, function(i, team_data) {
           var team_binding = presenter.binding.team_binding
