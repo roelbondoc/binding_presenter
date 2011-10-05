@@ -1,0 +1,190 @@
+{
+  "dates":[
+    {
+      "short_date": "Oct 6",
+      "timestamp": 12345
+    },
+    {
+      "short_date": "Oct 7",
+      "timestamp": 22345
+    }
+  ],
+  "lists": {
+    "events" : [
+      {
+        "data":[
+          {
+             "teams" : [{
+                "location" : "San Francisco",
+                "name" : "San Francisco",
+                "full_name" : "San Francisco Giants",
+                "colour_2" : "b57330",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/28",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "f73500",
+                "abbreviation" : "SF",
+                "id" : 28,
+                "score" : 6
+             },
+             {
+                "location" : "Arizona",
+                "name" : "Arizona",
+                "full_name" : "Arizona Diamondbacks",
+                "colour_2" : "e6b95c",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/30",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "c5122f",
+                "abbreviation" : "Ari",
+                "id" : 30,
+                "score" : 7
+             }],
+             "progress" : {
+                "segment_division" : "top",
+                "status" : "final",
+                "overtime" : false,
+                "string" : "Final"
+             },
+             "api_uri" : "/mlb/events/5797",
+             "odd" : null,
+             "game_type" : "Spring",
+             "updated_at" : "Fri, 25 Feb 2011 23:41:34 -0000",
+             "id" : 5797,
+             "game_date" : "Fri, 25 Feb 2011 20:05:00 -0000",
+             "stadium" : "Scottsdale Stadium"
+          },
+          {
+             "teams" : [{
+                "location" : "New York",
+                "name" : "NY Yankees",
+                "full_name" : "New York Yankees",
+                "colour_2" : "dc0000",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/3",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "001854",
+                "abbreviation" : "NYY",
+                "id" : 3,
+                "score" : 5
+             },
+             {
+                "location" : "Philadelphia",
+                "name" : "Philadelphia",
+                "full_name" : "Philadelphia Phillies",
+                "colour_2" : "00207b",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/18",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "d60000",
+                "abbreviation" : "Phi",
+                "id" : 18,
+                "score" : 4
+             }],
+             "progress" : {
+                "segment_division" : "top",
+                "status" : "final",
+                "overtime" : false,
+                "string" : "Final"
+             },
+             "api_uri" : "/mlb/events/5798",
+             "odd" : null,
+             "game_type" : "Spring",
+             "updated_at" : "Sat, 26 Feb 2011 21:36:30 -0000",
+             "id" : 5798,
+             "game_date" : "Sat, 26 Feb 2011 18:05:00 -0000",
+             "stadium" : "George M. Steinbrenner Field"
+          }
+        ],
+        "timestamp": 12345
+      },
+      {
+        "data":[
+          {
+             "teams" : [{
+                "location" : "Toronto",
+                "name" : "Toronto",
+                "full_name" : "Toronto Blue Jays",
+                "colour_2" : "696e6a",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/4",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "004dad",
+                "abbreviation" : "Tor",
+                "id" : 4,
+                "score" : 4
+             },
+             {
+                "location" : "Detroit",
+                "name" : "Detroit",
+                "full_name" : "Detroit Tigers",
+                "colour_2" : "00135c",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/8",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "ff4a00",
+                "abbreviation" : "Det",
+                "id" : 8,
+                "score" : 0
+             }],
+             "progress" : {
+                "segment_division" : "top",
+                "status" : "final",
+                "overtime" : false,
+                "string" : "Final"
+             },
+             "api_uri" : "/mlb/events/5799",
+             "odd" : null,
+             "game_type" : "Spring",
+             "updated_at" : "Sat, 26 Feb 2011 20:43:48 -0000",
+             "id" : 5799,
+             "game_date" : "Sat, 26 Feb 2011 18:05:00 -0000",
+             "stadium" : "Florida Auto Exchange Stadium"
+          },
+          {
+             "teams" : [{
+                "location" : "Tampa Bay",
+                "name" : "Tampa Bay",
+                "full_name" : "Tampa Bay Rays",
+                "colour_2" : "2a99e5",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/5",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "00275e",
+                "abbreviation" : "TB",
+                "id" : 5,
+                "score" : 5
+             },
+             {
+                "location" : "Pittsburgh",
+                "name" : "Pittsburgh",
+                "full_name" : "Pittsburgh Pirates",
+                "colour_2" : "ffc00e",
+                "logos" : {},
+                "api_uri" : "/mlb/teams/24",
+                "updated_at" : "Thu, 22 Jul 2010 07:17:19 -0000",
+                "colour_1" : "c80000",
+                "abbreviation" : "Pit",
+                "id" : 24,
+                "score" : 9
+             }],
+             "progress" : {
+                "segment_division" : "top",
+                "status" : "final",
+                "overtime" : false,
+                "string" : "Final"
+             },
+             "api_uri" : "/mlb/events/5800",
+             "odd" : null,
+             "game_type" : "Spring",
+             "updated_at" : "Sat, 26 Feb 2011 20:59:37 -0000",
+             "id" : 5800,
+             "game_date" : "Sat, 26 Feb 2011 18:05:00 -0000",
+             "stadium" : "Charlotte Sports Park"
+          }
+        ],
+        "timestamp": 22345
+      }
+    ]
+  }
+}

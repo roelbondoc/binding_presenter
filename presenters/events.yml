@@ -1,0 +1,25 @@
+layout:
+  - tabs
+  - event_list
+
+views:
+
+  tabs:
+    type: tab_view
+    binds_to: dates
+    binding:
+      text: short_date
+      selector: timestamp
+
+  event_list:
+    type: event_list_view
+    binds_to: events
+    binding:
+      id: timestamp
+      uri: event_uri
+      clock: progress.status
+      extra: live_blogs_or_tweets
+      team_binding:
+        logo: logo
+        name: full_name
+        score: score
